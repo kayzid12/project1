@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* }navbar */
+.fdiv{
+     position: sticky;
+     top: 0;
+     z-index: 100;
+     background-color: white;
+     overflow: hidden;
+     padding: 20px;
+}
+hr{
+   opacity: 0.5;
+}
+.navc{
+   color: rgb(91, 87, 87);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-bottom: 2px solid transparent;
+}
+.navc:hover{
+    border-bottom-color: rgb(72, 69, 69);
+}
+#nw{
+   color: black;
+   font-weight: bold;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a.shop{
+   color: rgb(91, 87, 87);
+   margin-left: 200px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-bottom: 2px solid transparent;
+}
+a.shop:hover{
+    border-bottom-color: rgb(72, 69, 69);
+}
+#shb{
+   position: absolute;
+   right: 0;
+   width: 25px;
+   translate: -70%;
+}
+.contactus{
+    position: relative;
+    margin-top: 70px;
+}
+.contact{
+    margin-left: 30px;
+}
+.otherpage{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 200px;
+}
+div.contactus  h3{
+    font-size: 70px;
+    font-weight: lighter;
+    color: rgb(38, 36, 36);
+}
+div.contact > p{
+    font-size: 20px;
+    color: rgb(76, 71, 71);
+}
+div.otherpage > a{
+    color: rgb(73, 72, 72);
+    font-size: 20px;
+}
+#subm{
+    background-color: rgb(81,96,121);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid rgb(81,96,121);
+}
+.footer{
+    background-color: rgb(29, 41, 56);
+    color: white;
+    margin-top: 70px;
+}
+#sub{
+    background-color: rgb(81,96,121);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid rgb(81,96,121);
+}
+.about, .email{
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}
+.email{
+    margin-left: 200px;
+}
+.add{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}
+.cont, .fol, .info{
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}

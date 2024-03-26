@@ -1,0 +1,201 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fdiv{
+     position: sticky;
+     top: 0;
+     z-index: 100;
+     background-color: white;
+     overflow: hidden;
+     padding: 20px;
+
+}
+hr{
+    opacity: 0.5;
+}
+.navc{
+    color: rgb(91, 87, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+.navc:hover{
+    border-bottom-color: rgb(72, 69, 69);
+}
+#nw{
+    color: rgb(45, 44, 44);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a.shop{
+    color: rgb(91, 87, 87);
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+a.shop:hover{
+    border-bottom-color: rgb(72, 69, 69);
+}
+#shb{
+    position: absolute;
+    right: 0;
+    width: 25px;
+    translate: -70%;
+}
+div.sdiv{
+    margin-top: 20px;
+    background-color: rgb(215 222, 233);
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+div.sdiv  h3{
+    margin-top: 50px;
+    font-size: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: lighter;
+
+}
+#sn{
+    color: white;
+    background-color: rgb(29, 56, 93);
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+#pics1{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    translate: -5%;
+}
+#pics2{
+    width: 390px;
+}
+del{
+    opacity: 0.5;
+}
+.row1{
+    color: black;
+}
+.frow, .srow, .trow{
+    display: inline-block;
+}
+.price1{
+    font-size: 30px;
+}
+.price1, .price2{
+    margin-left: 20px;
+}
+.fdisp{
+    margin-top: 50px;
+}
+.product{
+    margin-top: 40px;
+    position: absolute;
+    right: 50%;
+    translate: 50%;
+}
+#allp{
+    background-color: rgb(29, 56, 93);
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid black;
+}
+.frshp{
+    margin-top: 150px;
+}
+#fs{
+    background-color: rgb(15, 33, 56);
+    color: white;
+    padding: 20px 105px;
+    font-size: 70px;
+    margin: 50px;
+}
+.secrow{
+    margin-top: 100px;
+}
+#pics6, #pics7{
+    width: 350px;
+    padding: 20px;
+}
+#abu, #ourv{
+    background-color: rgb(29, 56, 93);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+.secrow{
+    position: relative;
+}
+.rowc1, .rowc2{
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+}
+div.rowc1 > h3{
+    font-size: 30PX;
+    font-weight: lighter;
+}
+div.rowc2 > h3{
+    font-size: 30PX;
+    font-weight: lighter;
+}
+.prow2, .prow3{
+    padding: 20px;
+    display: inline-block;
+}
+.prow3{
+    position: relative;
+    right: -18%;
+}
+.rowc2{
+    position: absolute;
+    right: 0;
+    translate: -20%;
+}
+#sub{
+    background-color: rgb(81,96,121);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid rgb(81,96,121);
+}
+.footer{
+    background-color: rgb(29, 41, 56);
+    color: white;
+    margin-top: 50px;
+}
+.about, .email{
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}
+.email{
+    margin-left: 200px;
+}
+.add{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}
+.cont, .fol, .info{
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}
